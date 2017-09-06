@@ -25,3 +25,29 @@ body {
   clear: both;
   display: table;
 }
+.description {
+  display: inline-block;
+  border-bottom: 2px solid #CCC;
+}
+.desc-text {
+  width: 70%;
+  padding-right: 25px;
+  float: left;
+}
+.quick-links {
+  width: 30%;
+  float: left;
+}
+.description::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.resources {
+  display: inline-block;
+}
+article {
+  width: 33%;
+  float: left;
+  padding-right: 25px;
+}
